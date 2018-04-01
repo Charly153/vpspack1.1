@@ -1,7 +1,7 @@
 # VPSPACK v2.3
 Instalador de Paquetes para VPS - OpenSSH - Squid3 - Dropbear
 
-![VPSPACK](https://github.com/Charly153/vpspack1.1/master/vpspack.png)
+![VPSPACK](https://raw.githubusercontent.com/Charly153/vpspack1.1/master/vpspack.png)
 
 PowerMX - VPSPACK
 =========
