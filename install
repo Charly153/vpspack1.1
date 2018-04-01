@@ -10,28 +10,28 @@ mkdir /etc/VpsPackdir 2>/dev/null
 mkdir /etc/VpsPackdir/limite 2>/dev/null
 mkdir /etc/VpsPackdir/senha 2>/dev/null
 rm -rf /bin/limite 2>/dev/null
-wget -o /dev/null -O- https://raw.githubusercontent.com/powermx/vpspack/master/limite > /bin/limite
+wget -o /dev/null -O- https://raw.githubusercontent.com/Charly153/vpspack1.1/master/limite > /bin/limite
 chmod +x /bin/limite
 rm -rf /bin/criarusuario 2>/dev/null
-wget -o /dev/null -O- https://raw.githubusercontent.com/powermx/vpspack/master/criarusuario > /bin/criarusuario
+wget -o /dev/null -O- https://raw.githubusercontent.com/Charly153/vpspack1.1/master/criarusuario > /bin/criarusuario
 chmod +x /bin/criarusuario
 rm -rf /bin/deletarusuario 2>/dev/null
-wget -o /dev/null -O- https://raw.githubusercontent.com/powermx/vpspack/master/deletarusuario > /bin/deletarusuario
+wget -o /dev/null -O- https://raw.githubusercontent.com/Charly153/vpspack1.1/master/deletarusuario > /bin/deletarusuario
 chmod +x /bin/deletarusuario
 rm -rf /bin/redefinirusuario 2>/dev/null
-wget -o /dev/null -O- https://raw.githubusercontent.com/powermx/vpspack/master/redefinirusuario > /bin/redefinirusuario
+wget -o /dev/null -O- https://raw.githubusercontent.com/Charly153/vpspack1.1/master/redefinirusuario > /bin/redefinirusuario
 chmod +x /bin/redefinirusuario
 rm -rf /bin/vpspack 2>/dev/null
-wget -o /dev/null -O- https://raw.githubusercontent.com/powermx/vpspack/master/vpspack > /bin/vpspack
+wget -o /dev/null -O- https://raw.githubusercontent.com/Charly153/vpspack1.1/master/vpspack > /bin/vpspack
 chmod +x /bin/vpspack
 rm -rf /bin/speedtest.py 2>/dev/null
-wget -o /dev/null -O- https://raw.githubusercontent.com/powermx/vpspack/master/speedtest.py > /bin/speedtest.py
+wget -o /dev/null -O- https://raw.githubusercontent.com/Charly153/vpspack1.1/master/speedtest.py > /bin/speedtest.py
 chmod +x /bin/speedtest.py
-wget -o /dev/null -O- https://raw.githubusercontent.com/powermx/vpspack/master/toolmaster > /bin/toolmaster
+wget -o /dev/null -O- https://raw.githubusercontent.com/Charly153/vpspack1.1/master/toolmaster > /bin/toolmaster
 chmod +x /bin/toolmaster
-wget -o /dev/null -O- https://raw.githubusercontent.com/powermx/vpspack/master/dropbear > /root/dropbear
+wget -o /dev/null -O- https://raw.githubusercontent.com/Charly153/vpspack1.1/master/dropbear > /root/dropbear
 chmod +x /root/dropbear
-alias @actualizar='wget https://raw.githubusercontent.com/powermx/vpspack/master/install && bash install'
+alias @actualizar='wget https://raw.githubusercontent.com/Charly153/vpspack1.1/master/install && bash install'
 clear
 echo -e "\033[1;32mInstalacion Finalizada\n\033[1;30mEjecute:"
 echo -e "\n\033[1;32mvpspack \033[1;30mMenu de opciones"
