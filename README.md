@@ -1,17 +1,17 @@
 # VPSPACK v2.3
 Instalador de Paquetes para VPS - OpenSSH - Squid3 - Dropbear
 
-![VPSPACK](https://github.com/powermx/vpspack/raw/master/vpspack.png)
+![VPSPACK](https://github.com/Charly153/vpspack1.1/master/vpspack.png)
 
 PowerMX - VPSPACK
 =========
 ## Instalacion Recomendada:
 ### Debian 7.11 x64
 ```
-apt-get update && apt-get upgrade && apt-get install ca-certificates && wget https://raw.githubusercontent.com/powermx/vpspack/master/install && bash install && vpspack
+apt-get update && apt-get upgrade && apt-get install ca-certificates && wget https://raw.githubusercontent.com/Charly153/vpspack1.1/master/install && bash install && vpspack
 ```
 ```
-wget https://raw.githubusercontent.com/powermx/vpspack/master/install && bash install && vpspack
+wget https://raw.githubusercontent.com/Charly153/vpspack1.1/master/install && bash install && vpspack
 ```
 ### Servicios Instalados
 * OpenSSH 22, 443
